@@ -1,3 +1,4 @@
+# async.py
 """
 Asynchronously download a list of webpages and time it
 
@@ -14,7 +15,7 @@ log = logging.getLogger()
 log.setLevel(logging.INFO)
 
 sites = [
-    "http://news.ycombinator.com/",
+    "https://news.ycombinator.com/",
     "https://www.yahoo.com/",
     "https://github.com/",
 ]

@@ -10,6 +10,7 @@ name = "pypi"
 ipython = "*"
 aiohttp = "*"
 aiodns = "*"
+uvloop = "*"
 
 
 [dev-packages]

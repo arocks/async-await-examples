@@ -11,3 +11,10 @@ $ pip install pipenv
 $ cd <proj-dir>
 $ pipenv install
 ```
+
+Now you need to enter the pipenv shell to run the examples:
+
+``` shellsession
+$ pipenv shell
+$ python async.py
+```

@@ -1,9 +1,10 @@
+# sync.py
 """Synchronously download a list of webpages and time it"""
 from urllib.request import Request, urlopen
 from time import time
 
 sites = [
-    "http://news.ycombinator.com/",
+    "https://news.ycombinator.com/",
     "https://www.yahoo.com/",
     "https://github.com/",
 ]
